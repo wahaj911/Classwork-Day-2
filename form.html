@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Day 2 Form</title>
+</head>
+<body>
+  <h1>Feedback Form</h1>
+
+  <form action="https://formsubmit.co/jojo911alfraih@gmail.com" method="POST">
+    <!-- 1. Name -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+    <br><br>
+
+    <!-- 2. Age -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required />
+    <br><br>
+
+    <!-- 3. Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+    <br><br>
+
+    <!-- 4. Gender (Radio Buttons) -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="Male" />
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="Female" />
+    <label for="female">Female</label>
+    <br><br>
+
+    <!-- 5. Checkbox (Required) -->
+    <input type="checkbox" id="agree" name="agree" required />
+    <label for="agree">Do you agree?</label>
+    <br><br>
+
+    <!-- 6. Textarea -->
+    <label for="feedback">Feedback:</label><br>
+    <textarea id="feedback" name="feedback"></textarea>
+    <br><br>
+
+    <!-- 7. Submit Button -->
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+</html>
